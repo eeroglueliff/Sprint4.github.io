@@ -1,0 +1,13 @@
+{
+    "teachers": [
+        { "name": "Murat Saygın", "subject": "Matematik" },
+        { "name": "Jale Tüzün", "subject": "Fen Bilimleri" },
+        { "name": "Emir Doğan", "subject": "İngilizce" },
+        { "name": "Mehmet Başaran", "subject": "Tarih" },
+        { "name": "Leyla Tomruk", "subject": "Matematik" },
+        { "name": "Yağız Uludoğan", "subject": "İngilizce" },
+        { "name": "Buğra Kaya", "subject": "Türkçe" },
+        { "name": "Selma Uygaroğlu", "subject": "Türkçe" }
+
+    ]
+}

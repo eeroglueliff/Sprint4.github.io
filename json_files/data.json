@@ -1,0 +1,12 @@
+[
+    {"title": "Ana Sayfa", "link": "index.html"},
+    {"title": "Hakkımızda", "link": "about.html"},
+    {"title": "Hizmetlerimiz", "link": "services.html"},
+    {"title": "Öğretmenler", "link": "services.html"},
+    {"title": "Dersler", "link": "services.html"},
+    {"title": "Destek", "link": "support.html"},
+    {"title": "Galeri", "link": "gallery.html"},
+    {"title": "Son Etkinlikler", "link": "news.html"},
+    {"title": "Gelecek Etkinlikler", "link": "news.html"},
+    {"title": "Etkinlikler", "link": "news.html"}
+]
