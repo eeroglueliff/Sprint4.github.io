@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etkinlikler - 8G Academy</title>
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="jQuery.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="contact.js"></script> 
+</head>
+
+<body>
+    <header>
+        <header class="header">
+            <div class="logo">
+                <img src="Akademi_Logo.png" alt="Logo">
+            </div>
+            <div class="title">
+                <h1>Etkinlikler</h1>
+            </div>
+            <header class="header-content">
+                <!-- Search form -->
+                <form id="search-form" class="search-form">
+                    <input type="search" id="search-input" placeholder="search">
+                    <button type="submit">Search</button>
+                </form>
+                <div id="search-results" style="display: none;">
+                    <!-- Search results will be dynamically added here -->
+                </div>
+            </header>
+        </header>
+        
+        <!--Navigation menu -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="services.html">Hizmetlerimiz</a></li>
+                <li><a href="support.html">Destek</a></li>
+                <li><a href="gallery.html">Galeri</a></li>
+                <li><a href="news.html">Etkinlikler</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section for displaying upcoming events -->
+    <section class="events-section">
+        <h2>Gelecek Etkinlikler</h2>
+        <div class="events-layout">
+            <div id="datepicker"></div>
+            <div class="events-container">
+                <div id="event-details" style="display:none;"></div>
+                <ul class="events-list">
+                    <div class="event-info-box">
+                        <p>Takvimimizdeki İşaretli Tarihleri Kontrol Ederek Etkinlik Detaylarına Ulaşabilirsiniz.</p>
+                    </div>                    
+                    <li><h4>DENEME SINAVI</h4><p>29 Mayıs 2024 Pazartesi günü Palme Yayinevi işbirliği ile 5,6,7 ve 8. Sınıflara özel deneme sınavı yapılacaktır.</p></li>
+                    <li><h4>YÜZME ETKİNLİĞİ</h4><p>Yaz sıcaklarında serinlemek için öğrencilerimizle buluşuyoruz.</p></li>
+                    <li><h4>SİNEMA ETKİNLİĞİ</h4><p>15 Haziran Cumartesi günü derslere ara vererek öğrencilerimizin seçeceği filmi izliyoruz.</p></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+      <!-- Section for displaying recent events -->
+      <section class="news-section">
+        <h2>Son Etkinlikler</h2>
+        <div class="news-container">
+            <article class="news-article">
+                <h3>Deneme Sınavı</h3>
+                <img src="sınav.jpg" alt="Deneme Sınavı">
+                <p>28 Nisan 2024 tarihinde 8. sınıf öğrencilerine yönelik bir deneme sınavı gerçekleştirilmiştir.</p>
+            </article>
+            <article class="news-article">
+                <h3>Matematik Olimpiyatı</h3>
+                <img src="mat.jpg" alt="Matematik Olimpiyatı">
+                <p>10 Mart 2024 tarihinde düzenlenen matematik olimpiyatında öğrencilerimiz yeteneklerini sergilediler.</p>
+            </article>
+            <article class="news-article">
+                <h3>Kitap Okuma Yarışması</h3>
+                <img src="kitap.jpg" alt="Kitap Okuma Yarışması">
+                <p>20 Şubat 2024 tarihinde yapılan kitap okuma yarışmasında öğrencilerimiz okuma alışkanlıklarını pekiştirdiler.</p>
+            </article>
+            <article class="news-article">
+                <h3>Bilim Şenliği</h3>
+                <img src="bilim.jpg" alt="Bilim Şenliği">
+                <p>1 Kasım 2023 tarihinde düzenlenen bilim şenliğinde öğrencilerimiz projelerini sergilediler.</p>
+            </article>
+        </div>
+    </section>
+    
+    </section>
+    
+
+    <footer>
+        <!-- Copyright information -->
+        <p>&copy; 2024 8G Academy. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

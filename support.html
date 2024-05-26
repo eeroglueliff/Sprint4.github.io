@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Destek - 8G Academy</title>
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="jQuery.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="contact.js"></script> 
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+        <img src="Akademi_Logo.png" alt="Logo">
+    </div>
+    <div class="title">
+        <h1>Destek</h1>
+    </div>
+    <header class="header-content">
+        <!-- Search form -->
+        <form id="search-form" class="search-form">
+            <input type="search" id="search-input" placeholder="search">
+            <button type="submit">Search</button>
+        </form>
+        <div id="search-results" style="display: none;">
+            <!-- Search results will be dynamically added here -->
+        </div>
+    </header>
+</header>
+    <header>
+        <!-- Main navigation menu -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li> 
+                <li><a href="about.html">Hakkımızda</a></li> 
+                <li><a href="services.html">Hizmetlerimiz</a></li> 
+                <li><a href="support.html">Destek</a></li> 
+                <li><a href="gallery.html">Galeri</a></li> 
+                <li><a href="news.html">Etkinlikler</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="tabs">
+            <ul>
+              <li><a href="#contact">İletişim Bilgileri</a></li>
+              <li><a href="#faq">SSS</a></li>
+              <li><a href="#forum">Forum Tartışmaları</a></li>
+            </ul>
+            <div id="contact">
+                <h2>İletişim Bilgileri</h2>
+                <p> Telefon: 0505 618 03 58</p> 
+                <p> Instagram: <a href="https://www.instagram.com/8g_akademi_" target="_blank"> 8g_akademi_</a></p> 
+                <p> Eposta: info@8g-akademi.com</p>
+
+                <form id="contact-form">
+                  <div class="form-group">
+                    <label for="name">İsim:</label>
+                    <input type="text" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Mesaj:</label>
+                    <textarea id="message" name="message" required></textarea>
+                  </div>
+                  <button type="submit">Gönder</button>
+                </form>
+                <div id="response-message" style="display:none;"></div>
+              </div>
+              <div id="faq">
+                <h2>SSS</h2>
+                <p>Akademi ile ilgili sıkça sorulan sorular ve cevapları.</p>
+                <ul>
+                  <li><strong>Soru 1:</strong> Akademi hangi eğitim programlarını sunuyor?<br>
+                    <strong>Cevap:</strong> Akademimiz Matematik, İngilizce, Tarih, Fen Bilimleri ve Türkçe,  alanlarında eğitim programları sunmaktadır.
+                  </li>
+                  <li><strong>Soru 2:</strong> Eğitimler ne kadar sürüyor?<br>
+                    <strong>Cevap:</strong> Eğitimlerimiz program türüne göre değişmekle birlikte genellikle 6 aydan 2 yıla kadar sürebilmektedir.
+                  </li>
+                  <li><strong>Soru 3:</strong> Eğitim ücretleri ne kadar?<br>
+                    <strong>Cevap:</strong> Eğitim ücretleri program türüne ve süresine göre değişmektedir. Detaylı bilgi için web sitemizdeki "Destek" sayfasını ziyaret edebilir, "İletişim Bilgileri" kısmından bizimle iletişime geçebilirsiniz.
+                  </li>
+                  <li><strong>Soru 4:</strong> Kayıt için gereken belgeler nelerdir?<br>
+                    <strong>Cevap:</strong> Kayıt için kimlik fotokopisi, öğrenci belgesi ve bir adet vesikalık fotoğraf gerekmektedir.
+                  </li>
+                </ul>
+              </div>
+              <div id="forum">
+                <h2>Forum Tartışmaları</h2>
+                <form id="forum-form">
+                    <div class="form-group">
+                        <label for="name1">İsim:</label>
+                        <input type="text" id="name1" name="name1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="surname">Soyisim:</label>
+                        <input type="text" id="surname" name="surname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="forum-message">Mesaj:</label>
+                        <textarea id="forum-message" name="forum-message" required></textarea>
+                    </div>
+                    <button type="submit">Gönder</button>
+                </form>
+                <div id="comments-section">
+                    <!-- Comments will be dynamically added here -->
+                </div>
+            </div>
+          </div>
+          
+        
+        <!-- Map section -->
+        <section class="map-section">
+            <h2>Konum</h2> 
+            <div id="map"></div> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3060.596118819305!2d32.6505614747678!3d39.90567398658742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d339f2e65e4e87%3A0x95618d3a702e6003!2s8G%20Akademi!5e0!3m2!1sen!2str!4v1715265749987!5m2!1sen!2str" ></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Copyright information -->
+        <p>&copy; 2024 8G Academy. All rights reserved.</p> 
+    </footer>
+</body>
+
+</html>

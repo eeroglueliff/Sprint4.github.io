@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hizmetlerimiz - 8G Academy</title>
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="jQuery.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="contact.js"></script> 
+</head>
+
+<body>
+    <header>
+        <header class="header">
+            <div class="logo">
+                <img src="Akademi_Logo.png" alt="Logo">
+            </div>
+            <div class="title">
+                <h1>Hizmetlerimiz</h1>
+            </div>
+            <header class="header-content">
+                <!-- Search form -->
+                <form id="search-form" class="search-form">
+                    <input type="search" id="search-input" placeholder="search">
+                    <button type="submit">Search</button>
+                </form>
+                <div id="search-results" style="display: none;">
+                    <!-- Search results will be dynamically added here -->
+                </div>
+            </header>
+        </header>
+
+        <!--Navigation menu -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="services.html">Hizmetlerimiz</a></li>
+                <li><a href="support.html">Destek</a></li>
+                <li><a href="gallery.html">Galeri</a></li>
+                <li><a href="news.html">Etkinlikler</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Section about our services -->
+    <div class =  "services">
+        <div class="about-heading">HİZMETLER</div>
+
+        Sıra dışı bir eğitim deneyimi mi sunuyor? Kurs merkezimizde sizi bekleyen birbirinden özel derslerle hayallerinizi dönüştürün! 
+        Matematik, fen bilimleri, yabancı dil, müzik, resim… Siz hangisine meraklısınız? Her biri, sürekliliğin ilgi içeriğine göre düzenlenmiş bir içerik sunuyor.
+        Eğitimimiz sadece içerikle sınırlı değil, aynı zamanda öğretim yöntemlerimiz son derece özgün ve etkili. 
+        Öğrenmenin sıkıcı olmadığını, tam neşeli, eğlenceli ve muhteşem anlarla dolu olduğunu gösteriyoruz. Ve tabii ki, tüm bunları uygun fiyatlar sunuyoruz. 
+        Öğrencilerimizin başarısına odaklanarak, en iyi eğitimi vermeyi hedefliyoruz.
+    </div>
+
+    <div class =  "teachers">
+        <div class="about-heading">ÖĞRETMENLER</div>
+
+        Kurs merkezimizde çalışan değerli öğretmenlerimiz, gelişmelerin en iyi öğrenme deneyimi yaşamaları için seçilmiş seçilmiş ve eğitimli kişilerdir.
+        Her bir öğretmenimizin ayrılış alanları, deneyimleri ve eğitimleri hakkında ayrıntılı bilgi vererek, elinde bulunan en uygun öğretmen seçmelerine yardımcı olacaktır.
+        Ayrıca, öğretim yöntemlerimizde gelişmiş teknikler kullanılarak, öğrenme süreçlerinin desteklenmesi, bunların başarılarına dahil edilmesi sağlanır.
+        Velilerimizin ve sürdürülebilirliğinin rahatlığı bizim için her zaman düzenlidir.
+   
+    </div>
+    <div class="subjects">
+        <div class="about-heading">DERSLER</div>
+        <button class="subject-btn" data-subject="Matematik">Matematik</button>
+        <button class="subject-btn" data-subject="İngilizce">İngilizce</button>
+        <button class="subject-btn" data-subject="Tarih">Tarih</button>
+        <button class="subject-btn" data-subject="Fen Bilimleri">Fen Bilimleri</button>
+        <button class="subject-btn" data-subject="Türkçe">Türkçe</button>
+    </div>
+    <div id="teacher-info">
+        <!-- Teacher information will be dynamically added here -->
+    </div>
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 8G Academy. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
